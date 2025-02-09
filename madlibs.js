@@ -28,7 +28,7 @@ const processEntries = () => {
     madlib.innerHTML= "I love to be " + verb + " with a " + noun1 + " when I'm listening to " + song + ". I also love to be " + verb + " with the " + noun2 + " while listening to " + song + ". It makes it easier to handle " + pluralNoun + "!";
    
     if (noun1 == "" || verb == "" || noun2 == "" || song == "" || pluralNoun == "") {
-        alert("Please fill in alllll fields.");
+        alert("Please fill in all fields.");
         focusAndSelect("#pluralNoun");
         return clear();
         
