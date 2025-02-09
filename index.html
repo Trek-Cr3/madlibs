@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            
+        #wrapper { background-color:bisque;
+                    width: 70%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding: 4em;}
+                    #story { font-family: 'Courier New', Courier, monospace;
+                                font-size: 1.5em;    
+                                font-weight: bold;}
+                                #madlibslogo { display: block;
+                                                margin-left: auto;
+                                                margin-right: auto;}
+                                 #instruct{
+                                  text-align: center;
+                                 }               
+                                 #stuff { text-align: center;}
+                              
+                                                </style>
+                                            
+        </style>
+    </head>
+<body>
+<main>
+<div id = "wrapper">
+
+<img src = "AvatarMaker.png" width="20%" height="auto" id="madlibslogo">
+<p id="instruct">Please enter the following information:</p>
+<div id="stuff">
+<p>Madlib: <span id="story"></span></p>
+<input id="pluralNoun" placeholder="a plural noun"><br>
+<input id="noun1" placeholder="a noun"><br>
+<input id="noun2" placeholder="another noun"><br>
+<input id="song" placeholder="song"><br>
+<input id="verb" placeholder="verb"><br>
+
+
+<button type="button" id="submit" onclick="reset()">Submit</button>
+<button type="button" id="reset" style= "display: none;" onclick="clear()">Reset</button>
+</div>
+</div>
+</main>
+<script src="madlibs.js"></script>
+</body>
+
+</html> 
+
+
+
+
+
+Resources
